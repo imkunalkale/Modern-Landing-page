@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+#back {
+  width: 100%;
+  height: 100vh;
+  background-color: #ff0000;
+}
+
+#top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+#woekingarea {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  max-width: 1620px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+#nav img {
+  height: 50px;
+  cursor: pointer;
+}
+
+#nleft,
+#nrigth {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#nav a {
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Merriweather", serif;
+}
+
+#hero {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: #ff0000; */
+}
+
+#heroleft {
+  /* width: 100%; */
+  max-width: 50%;
+}
+
+#heroleft .elem {
+  height: 9vw;
+  background-color: #ff0000;
+}
+
+#heroleft .elem h1 {
+  line-height: 0.9;
+  font-family: "kajiro";
+  color: #fff;
+  font-weight: 100;
+  font-size: 11vw;
+}
+
+#heroright {
+  max-width: 25%;
+  background-color: green;
+}
