@@ -88,16 +88,24 @@ body {
 }
 
 #heroleft {
-  /* width: 100%; */
+  width: 100%;
   max-width: 50%;
 }
 
 #heroleft .elem {
+  position: relative;
   height: 8vw;
-  overflow: hidden;
+  overflow: hidden; 
+}
+
+#heroleft .elem h1:nth-child(1){
+  top: 0;
 }
 
 #heroleft .elem h1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
   line-height: 0.9;
   font-family: "kajiro";
   color: #fff;
